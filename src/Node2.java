@@ -1,5 +1,6 @@
 /**
  * Nodes for doubly-linked structures.
+ * @author Sam Rebelsky, Gun Woo Kim
  */
 public class Node2<T> {
   // +--------+------------------------------------------------------
@@ -53,8 +54,8 @@ public class Node2<T> {
   /**
    * Create a new node with no links.
    */
-   public Node2(T value) {
-     this(null, value, null);
+  public Node2(T value) {
+    this(null, value, null);
    } // Node2(T)
 
   // +---------+-----------------------------------------------------
